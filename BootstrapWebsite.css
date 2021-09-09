@@ -1,0 +1,78 @@
+@font-face {
+  font-family: SourceSansPro;
+  src: url(SourceSansPro-ExtraLight.ttf);
+}
+#secret
+{
+color: black;
+font-size: 20;
+}
+
+#left{
+  background-color: lightblue;
+}
+
+#right{
+  background-color: lightblue;
+}
+
+#Center{
+  background-color: turquoise;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+#body{
+  background-color: silver;
+}
+
+#p1{
+font-family: SourceSansPro;
+}
+
+#p2{
+font-family: SourceSansPro;
+}
+
+#p3{
+font-family: SourceSansPro;
+}
+/*Obnoxious CSS Below */
+@keyframes twister {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  10% {
+    transform: rotateZ(360deg);
+  }
+  20% {
+    transform: rotateZ(720deg);
+  }
+  30% {
+    transform: rotateZ(1080deg);
+  }
+  40% {
+    transform: rotateZ(1440deg);
+  }
+  50% {
+    transform: rotateZ(1800deg);
+  }
+  60% {
+    transform: rotateZ(2160deg);
+  }
+  70% {
+    transform: rotateZ(2520deg);
+  }
+  80% {
+  }
+  90% {
+  }
+  100% {
+  }
+}
+
+.twister {
+  animation-name: twister;
+  animation-duration: 5s;
+  z-index: 1000;
+}
